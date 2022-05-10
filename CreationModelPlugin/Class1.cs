@@ -124,6 +124,7 @@ namespace CreationModelPlugin
             if (!doorType.IsActive)
                 doorType.Activate();
             doc.Create.NewFamilyInstance(point, doorType, wall, level1, StructuralType.NonStructural);
+
         }
     }
 }
